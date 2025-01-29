@@ -7,7 +7,7 @@ if(a>0&&b>0){
 
 }
 else{
-    printf("False")
+    printf("False");
 }
     return 0;
 }

@@ -3,9 +3,9 @@
 int main() {
     int a,b;
     scanf("%d %d",&a, &b);
-    if (a>b)
+    if (a>b||b>a)
     printf("Profit");
-    else if (b>a)
+    else if (a<b||a>b)
     printf("Loss");
     else
     printf("No Profit No Loss");
